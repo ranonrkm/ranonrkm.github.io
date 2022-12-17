@@ -95,20 +95,28 @@
   <tr>
      <td width="33%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/9898007" target="_blank"><img src="images/HSD.png" alt="HSD-CNN" width="100%" style="border-radius:15px"></a>
      <td width="67%" valign="top">
-        <p><a href="https://ieeexplore.ieee.org/document/9898007" target="_blank">
-        <heading>Taxonomy Driven Learning Of Semantic Hierarchy Of Classes</heading></a><br>
-        <strong>Ranajoy Sadhukhan</strong>, Ankita Chatterjee, Jayanta Mukhopadhyay, Amit Patra</a> <br>
-        IEEE International Conference on Image Processing (<strong>ICIP</strong>), 2022<br>
-        </p>
+         <p><a href="https://ieeexplore.ieee.org/document/9898007" target="_blank">
+         <heading>Taxonomy Driven Learning Of Semantic Hierarchy Of Classes</heading></a><br>
+         <strong>Ranajoy Sadhukhan</strong>, Ankita Chatterjee, Jayanta Mukhopadhyay, Amit Patra</a> <br>
+         IEEE International Conference on Image Processing (<strong>ICIP</strong>), 2022<br>
+         </p>
 
-        <div class="paper" id="hsdcnn">
+        <!-- <div class="paper" id="hsdcnn">
         <a href="javascript:toggleblock('hsdcnnabs')">abstract</a> / 
         <a shape="rect" href="javascript:togglebib('hsdcnn')" class="togglebib">bibtex</a> / 
         <a href="https://ieeexplore.ieee.org/document/9898007" target="_blank">paper</a>
-        <br>
+        <br> -->
 
-        <p align="justify"> <i id="hsdcnnabs">Standard pre-trained convolutional neural networks are deployed on different task-specific limited class applications. These applications require classifying images of a much smaller subset of classes than that of the original large domain dataset on which the network is pre-trained. Therefore, a computationally inefficient and over-represented network is obtained. Hierarchically Self Decomposing CNN (HSD-CNN) addresses this issue by dissecting the network into sub-networks in an automated hierarchical fashion such that each sub-network is useful for classifying images of closely related classes. However, visual similarities are not always well-aligned with the semantic understanding of humans. In this paper, we propose a method that aids the pre-trained network to learn the hierarchy of classes derived from standard taxonomy, WordNet and, produce sub-networks corresponding to semantically meaningful classes upon decomposition. Experimental results show that the cluster of classes obtained for each sub-network is semantically closer according to WordNet hierarchy without degradation in overall accuracy.</i></p>
+        <!-- <p align="justify"> <i id="hsdcnnabs">Standard pre-trained convolutional neural networks are deployed on different task-specific limited class applications. These applications require classifying images of a much smaller subset of classes than that of the original large domain dataset on which the network is pre-trained. Therefore, a computationally inefficient and over-represented network is obtained. Hierarchically Self Decomposing CNN (HSD-CNN) addresses this issue by dissecting the network into sub-networks in an automated hierarchical fashion such that each sub-network is useful for classifying images of closely related classes. However, visual similarities are not always well-aligned with the semantic understanding of humans. In this paper, we propose a method that aids the pre-trained network to learn the hierarchy of classes derived from standard taxonomy, WordNet and, produce sub-networks corresponding to semantically meaningful classes upon decomposition. Experimental results show that the cluster of classes obtained for each sub-network is semantically closer according to WordNet hierarchy without degradation in overall accuracy.</i></p> -->
 
+         <div class="paper" id="ooddiskann">
+         <a href="javascript:toggleblock('ooddiskannabs')">abstract</a> / 
+         <a shape="rect" href="javascript:togglebib('ooddiskann')" class="togglebib">bibtex</a> / 
+         <a href="https://arxiv.org/abs/2211.12850" target="_blank">paper</a>
+         <br>
+
+         <p align="justify"> <i id="ooddiskannabs">State-of-the-art algorithms for Approximate Nearest Neighbor Search (ANNS) such as DiskANN, FAISS, and HNSW build data dependent indices that offer substantially better accuracy and search efficiency over data-agnostic indices by overfitting to the index data distribution. When the query data is drawn from a different distribution, for example when index represents image embeddings and query represents textual embeddings, such algorithms lose much of this performance advantage. On a variety of datasets, for a fixed recall target, latency is worse by an order of magnitude or more for Out-Of-Distribution (OOD) queries as compared to In-Distribution (ID) queries. The question we address in this work is whether ANNS algorithms can be made efficient for OOD queries if the index construction is given access to a small sample set of these queries. We answer positively by presenting OOD-DiskANN, which uses a sparing sample (1% of index set size) of OOD queries, and provides up to 40% improvement in mean query latency over SoTA algorithms of a similar memory footprint. OOD-DiskANN is scalable and has the efficiency of graph-based ANNS indices. Some of our contributions can improve query efficiency for ID queries as well.</i></p>
+ 
 <pre xml:space="preserve">
 @INPROCEEDINGS{9898007,
   author={Sadhukhan, Ranajoy and Chatterjee, Ankita and Mukhopadhyay, Jayanta and Patra, Amit},
