@@ -1,3 +1,4 @@
+# 15618 Project - Ray Tracing - Yixuan Mei, Ranajoy Sadhukhan
 # Renderer Usage
 ## Usage on Windows
 + <font size="4"> step 1: compile this project using cmake </font>
@@ -9,8 +10,6 @@
 <font size="4"> run "bash linux_run.sh", which compiles the renderer, uses 80 processes to run it and process result into a .ppm and a .jpg file. (Note that for default Sponza Crytek scene, about 150 GB memory is required. This requirement is proportional to the number of processes.) </font>
 
 \
-<font size="4"> **NOTE: For detailed usage and code explanation, see ./report/report.pdf.** </font>
-
 
 # Results
 ## <font size="5"> 1. Hollow Glass Ball </font>
