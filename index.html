@@ -95,6 +95,88 @@
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
   <tr>
+     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2408.11049" target="_blank"><img src="images/MagicDec.png" alt="magicdec" width="100%" style="border-radius:15px"></a>
+     <td width="67%" valign="top">
+         <p><a href="https://arxiv.org/abs/2408.11049" target="_blank">
+         <heading>MagicDec: Breaking the Latency-Throughput Tradeoff for Long Context Generation with Speculative Decoding</heading></a><br>
+         <strong>Ranajoy Sadhukhan*</strong>, Jian Chen*, Zhuoming Chen, Vashisth Tiwari, Ruihang Lai, Jinyuan Shi, Ian En-Hsu Yen, Avner May, Tianqi Chen, Beidi Chen<br>
+         Under review<br>
+         </p>
+
+         <div class="paper" id="magicdec">
+         <a href="javascript:toggleblock('magicdecabs')">abstract</a> / 
+         <a shape="rect" href="javascript:togglebib('magicdec')" class="togglebib">bibtex</a> / 
+         <a href="https://arxiv.org/abs/2408.11049" target="_blank">paper</a> /
+          <a href="https://infini-ai-lab.github.io/MagicDec/" target="_blank">blog</a>
+         <br>
+
+         <p align="justify"> <i id="magicdecabs">Large Language Models (LLMs) have become more prevalent in long-context applications such as
+          interactive chatbots, document analysis, and agent workflows, but it is challenging to serve long-context
+          requests with low latency and high throughput. Speculative decoding (SD) is a widely used technique to
+          reduce latency without sacrificing performance but the conventional wisdom suggests that its efficacy is
+          limited to small batch sizes. In MagicDec, we show that surprisingly SD can achieve speedup even for a
+          high throughput inference regime for moderate to long sequences. More interestingly, an intelligent drafting
+          strategy can achieve better speedup with increasing batch size based on our rigorous analysis. MagicDec
+          first identifies the bottleneck shifts with increasing batch size and sequence length, and uses these insights
+          to deploy speculative decoding more effectively for high throughput inference. Then, it leverages draft
+          models with sparse KV cache to address the KV bottleneck that scales with both sequence length and
+          batch size. This finding underscores the broad applicability of speculative decoding in long-context serving,
+          as it can enhance throughput and reduce latency without compromising accuracy. For moderate to long
+          sequences, we demonstrate up to 2x speedup for LLaMA-2-7B-32K and 1.84x speedup for LLaMA-3.1-8B when serving batch sizes ranging from 32 to 256 on 8 NVIDIA A100 GPUs. </i></p>
+
+<pre xml:space="preserve">
+  @misc{chen2024magicdecbreakinglatencythroughputtradeoff,
+    title={MagicDec: Breaking the Latency-Throughput Tradeoff for Long Context Generation with Speculative Decoding}, 
+    author={Jian Chen and Vashisth Tiwari and Ranajoy Sadhukhan and Zhuoming Chen and Jinyuan Shi and Ian En-Hsu Yen and Beidi Chen},
+    year={2024},
+    eprint={2408.11049},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2408.11049}, 
+}
+</pre>
+        </div>
+      </td>
+  </tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2408.11049" target="_blank"><img src="images/mosaics.png" alt="mosaics" width="100%" style="border-radius:15px"></a>
+     <td width="67%" valign="top">
+         <p><a href="https://arxiv.org/abs/2405.06394" target="_blank">
+         <heading>MagicDec: Breaking the Latency-Throughput Tradeoff for Long Context Generation with Speculative Decoding</heading></a><br>
+         Jianyu Zhang, Niklas Nolte, <strong>Ranajoy Sadhukhan</strong>, Beidi Chen, Léon Bottou<br>
+         Under review<br>
+         </p>
+
+         <div class="paper" id="mosaics">
+         <a href="javascript:toggleblock('mosaicsabs')">abstract</a> / 
+         <a shape="rect" href="javascript:togglebib('mosaics')" class="togglebib">bibtex</a> / 
+         <a href="https://arxiv.org/abs/2405.06394" target="_blank">paper</a> 
+         <br>
+
+         <p align="justify"> <i id="magicdecabs">    Memory Mosaics are networks of associative memories working in concert to achieve a prediction task of interest. Like transformers, memory mosaics possess compositional capabilities and in-context learning capabilities. Unlike transformers, memory mosaics achieve these capabilities in comparatively transparent ways. We demonstrate these capabilities on toy examples and we also show that memory mosaics perform as well or better than transformers on medium-scale language modeling tasks. 
+         </i></p>
+
+<pre xml:space="preserve">
+  @misc{zhang2024memorymosaics,
+    title={Memory Mosaics}, 
+    author={Jianyu Zhang and Niklas Nolte and Ranajoy Sadhukhan and Beidi Chen and Léon Bottou},
+    year={2024},
+    eprint={2405.06394},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2405.06394}, 
+}
+</pre>
+        </div>
+      </td>
+  </tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr>
      <td width="33%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/9898007" target="_blank"><img src="images/HSD.png" alt="HSD-CNN" width="100%" style="border-radius:15px"></a>
      <td width="67%" valign="top">
          <p><a href="https://ieeexplore.ieee.org/document/9898007" target="_blank">
